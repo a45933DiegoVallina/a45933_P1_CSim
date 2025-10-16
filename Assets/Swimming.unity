@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 966078089}
-  - component: {fileID: 966078088}
+  - component: {fileID: 966078090}
   m_Layer: 0
   m_Name: FlockMenager
   m_TagString: Untagged
@@ -233,18 +233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &966078088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966078087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551b3fa2943c90f4dbc0dbb08e2683b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &966078089
 Transform:
   m_ObjectHideFlags: 0
@@ -260,6 +248,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &966078090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966078087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551b3fa2943c90f4dbc0dbb08e2683b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allFish: {fileID: 1318662798089844, guid: 06a4036ceebb544e494c30d599b9d2c1, type: 3}
+  numFish: 10
+  swimLimits: {x: 1, y: 1, z: 1}
 --- !u!850595691 &1166553074
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -382,7 +385,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 15
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -407,11 +410,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260379327}
-  m_LocalRotation: {x: -0.09132536, y: 0.7407261, z: -0.10287398, w: -0.65757245}
-  m_LocalPosition: {x: 62.416542, y: 15.452131, z: 18.12159}
+  m_LocalRotation: {x: -0.05505791, y: 0.6544599, z: -0.11126256, w: -0.7458362}
+  m_LocalPosition: {x: 54.6, y: 13.3, z: -8.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.165, y: -81.894, z: 5.534}

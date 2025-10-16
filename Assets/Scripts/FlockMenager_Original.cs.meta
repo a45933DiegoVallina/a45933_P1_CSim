@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 551b3fa2943c90f4dbc0dbb08e2683b6
+guid: bb1f48ace7bfc204d876ab5aa2bba182
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - allFish: {fileID: 1318662798089844, guid: 06a4036ceebb544e494c30d599b9d2c1, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
