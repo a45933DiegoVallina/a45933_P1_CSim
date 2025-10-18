@@ -225,7 +225,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 966078089}
-  - component: {fileID: 966078090}
   m_Layer: 0
   m_Name: FlockMenager
   m_TagString: Untagged
@@ -248,21 +247,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &966078090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966078087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551b3fa2943c90f4dbc0dbb08e2683b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allFish: {fileID: 1318662798089844, guid: 06a4036ceebb544e494c30d599b9d2c1, type: 3}
-  numFish: 10
-  swimLimits: {x: 1, y: 1, z: 1}
 --- !u!850595691 &1166553074
 LightingSettings:
   m_ObjectHideFlags: 0
