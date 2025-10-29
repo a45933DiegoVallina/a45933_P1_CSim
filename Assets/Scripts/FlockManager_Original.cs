@@ -11,7 +11,6 @@ public class FlockManager_Original : MonoBehaviour
     public Vector3 swimLimits = new Vector3(5, 5, 5);
     public Vector3 goalPos = Vector3.zero;
 
-
     [Header("Fish Settings")]
     [Range(0.0f, 5.0f)]
     public float minSpeed;
@@ -21,6 +20,10 @@ public class FlockManager_Original : MonoBehaviour
     public float vizinhoDistance;
     [Range(1.0f, 5.0f)]
     public float rotationSpeed;
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {

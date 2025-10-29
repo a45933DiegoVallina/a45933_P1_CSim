@@ -265,10 +265,10 @@ MonoBehaviour:
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
   goalPos: {x: 0, y: 0, z: 0}
-  minSpeed: 0.55
-  maxSpeed: 1.36
-  vizinhoDistance: 10
-  rotationSpeed: 2.11
+  minSpeed: 3.19
+  maxSpeed: 5
+  vizinhoDistance: 7.21
+  rotationSpeed: 3.29
 --- !u!850595691 &1166553074
 LightingSettings:
   m_ObjectHideFlags: 0
